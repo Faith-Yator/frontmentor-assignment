@@ -1,0 +1,91 @@
+@@
+body {
+  margin: 20px;
+}
+
+h1 {
+  color: green;
+}
+
+/* navigation */
+.navigation {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nav__logo {
+  margin-right: 7rem;
+  position: relative;
+  top: -1rem;
+}
+
+div.left_navigation {
+  width: 30%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(115, 120, 120, 0.597);
+}
+
+div.access {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 25rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(115, 120, 120, 0.597);
+}
+
+/* body */
+.body__heading {
+  font-size: 5rem;
+  font-family: sans-serif;
+  margin-bottom: -2rem;
+}
+
+.body__description {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  line-height: 2rem;
+  color: rgba(115, 120, 120, 0.597);
+  font-weight: 500;
+}
+
+button {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.body_sponser {
+  display: flex;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+svg {
+  margin-right: 5rem;
+}
+
+.learn_more {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  background-color: black;
+  margin-bottom: 3rem;
+}
+
+.desktop {
+  position: relative;
+  left: 55rem;
+  bottom: 40rem;
+}
+
+.attribution {
+  position: relative;
+  left: 20rem;
+  top: -35rem;
+}
